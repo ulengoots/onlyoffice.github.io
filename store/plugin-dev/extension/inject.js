@@ -3,7 +3,7 @@
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
-	//xhrObj.send('');
+	xhrObj.send('');
 
 	var configObj = JSON.parse(xhrObj.responseText);
 	configObj.baseUrl = URL_TO_PLUGIN;
