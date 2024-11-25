@@ -1,0 +1,11 @@
+{
+    "name": "HelloWorld",
+    "guid": "hello-world-plugin",
+    "description": "A simple Hello World plugin for OnlyOffice",
+    "version": "1.0",
+    "settings": [],
+    "isViewer": false,
+    "isModal": true,
+    "isBuiltIn": false,
+    "editorMode": ["document", "spreadsheet", "presentation"]
+}
